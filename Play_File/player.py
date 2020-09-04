@@ -1,6 +1,6 @@
 import sys
-sys.path.append("/Users/paola/DEV PYTHON/PROJETS/BlackJack/BlackJack/Ascii_File")
-from Ascii_File.ascii import Ascii
+sys.path.append("/home/patrick/Desktop/Draft/BlackJack/")
+from Deck_File.deck import Deck
 
 class Player:
     def __init__(self, dealer=False):
@@ -39,5 +39,4 @@ class Player:
             for card in self.cards:
                 print(card)
             print("The total is:", self.result())
-
 
